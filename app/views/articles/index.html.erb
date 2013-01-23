@@ -1,0 +1,10 @@
+<h1><%= t('activerecord.models.article') %></h1>
+
+<div id="articles">
+	<% @articles.each do |article| %>
+	<h2> <%= link_to article.heading, article %> </h2>
+	<div class="content">
+		<%= article.content %>
+	</div>
+	<% end %>
+</div>

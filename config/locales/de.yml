@@ -1,0 +1,38 @@
+de:
+  activerecord:
+    models:
+      article: "Artikel"
+      user: "Benutzer"
+    attributes:
+      article:
+        heading: "Titel"
+        content: "Inhalt"
+      user:
+        email: "E-Mail"
+        password: "Passwort"
+  title:
+    article:
+      create: "Neuen Artikel erstellen"
+      edit: "Artikel bearbeiten"
+  text:
+    show: "Anzeigen"
+    articel:
+      create: "Artikel erstellen"
+    session:
+      create: "Anmelden"
+      destroy: "Abmelden"
+    user:
+      create: "Benutzer erstellen"
+      signup: "Registrieren"
+  message:
+    access:
+      forbidden: "Sie besitzen nicht ausreichend Rechte"
+    article:
+      create: "Der Artikel wurde erfolgreich erstellt!"
+      update: "Der Artikel wurde erfolgreich geändert!"
+    user:
+      create: "Ihr Account wurde erfolgreich erstellt!"
+    session:
+      create: "Sie haben sich erfolgreich angemeldet!"
+      create_fail: "Falsche E-Mail oder Passwort!"
+      destroy: "Sie haben sich erfolgreich abgemeldet!"

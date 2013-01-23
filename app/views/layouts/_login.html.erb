@@ -1,0 +1,7 @@
+<%= form_tag sessions_path do %>
+
+<%= text_field_tag :email, params[:email], :class => 'input-medium', :placeholder => I18n.t('activerecord.attributes.user.email') %>
+<%= password_field_tag :password, nil, :class => 'input-medium', :placeholder => I18n.t('activerecord.attributes.user.password')%>
+<%= submit_tag I18n.t('text.session.create'), :class => 'btn btn-primary' %>
+
+<% end %>

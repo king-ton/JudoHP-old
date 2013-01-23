@@ -1,0 +1,22 @@
+<h1><%= t('activerecord.models.user')%></h1>
+
+<div>
++ <%= link_to t('text.user.create'), new_user_path %>
+</div>
+<br>
+
+<table>
+	<tr>
+		<th>Name</th>
+		<th><%= t('activerecord.attributes.user.email')%></th>
+		<th></th>
+	</tr>
+	<% @users.each do |user| %>
+		<tr>
+			<td></td>
+			<td><%= user.email %></td>
+			<td><%= link_to t('text.show'), user %></td>
+			
+		</tr>
+	<% end %>
+</table>
